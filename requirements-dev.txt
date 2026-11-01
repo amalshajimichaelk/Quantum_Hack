@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8
+# Independent pure-Python ML-KEM / ML-DSA used ONLY by tests to cross-check pqcrypto
+kyber-py>=1.2
+dilithium-py>=1.4
